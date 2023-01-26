@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvisiChat General</title>
+    <script type="module" src="chat-general.js"></script>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <noscript>
+        <div style="width: 100vw;height: 100vh;background-color: black;opacity: 1;z-index: 100;position: fixed;left: 0px;top: 0px;">
+            <h1 style="color: white;">Uh Oh!</h1>
+            <h3 style="color: white;">This site can only be used with the most up-to-date javascript.</h3>
+            <p style="color: white;">If javascript it turned off, turn it on. If it is on, use a diffrent browser. If you tried every browser, try updating the browser and computer. Otherwise, I have no idea! Sorry! :/</p>
+        </div>
+    </noscript>
+</head>
+<body>
+    <div id="messages">
+    </div>
+    <textarea id="messageBox"></textarea>
+    <button id="send">
+    Send!
+    </button>
+    <button id="image">
+        Add Image
+    </button>
+    <dialog id="noInternet">
+	    <h1>
+		    No internet!
+	    </h1>
+	    <p>
+		    This site <b>requires</b> internet. Without it, you cannot send or recieve new messages until you reconnect.
+	    </p>
+	    <h6>
+		    Have internet? Try returing to the main page or reloading.
+	    </h6>
+    </dialog>
+</body>
+</html>

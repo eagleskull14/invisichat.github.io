@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    font-family: 'Righteous', cursive;
+}
+
+#messages {
+	overflow-wrap: break-word;
+	overflow-y: auto;
+	width: 99%;
+	height: 75vh;
+	border: 1px solid #505050;
+}
+
+html {
+    background-color: #232323;
+    color: white;
+}
+
+textarea {
+    background-color: #232323;
+    color: white;
+    border: 0.5px solid #505050;
+    width: 80vw;
+    height: 20vh;
+    resize: none;
+}
+
+@media (max-width: 475px) {
+    textarea {
+        width: 78vw !important;
+    }
+}
+
+#send {
+    border: none;
+    background-color: #505050;
+    width: 14.4vw;
+    height: 15vh;
+    translate: -0% -12.5vh;
+    color: white;
+    transition: 500ms;
+}
+dialog {
+	background-color: #ff3555;
+	color: white;
+	border: 2px solid black;
+	position: fixed;
+}
+#image {
+    border: none;
+    background-color: #505050;
+    width: 14.4vw;
+    height: 5vh;
+    translate: 81vw -11.75vh;
+    color: white;
+}

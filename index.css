@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    font-family: 'Righteous', cursive;
+}
+
+html {
+    background-color: #232323;
+    color: white;
+}
+
+a {
+    color: #aaaaff;
+}
+
+a:visited {
+    color: #aaaaff;
+}
+
+a:hover {
+    color: #8888ff;
+}
+
+.linkContainer {
+    width: 25%;
+    height: 18%;
+    background-color: #131313;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    overflow-y: auto;
+}
+
+#general {
+    top: 0%;
+    left: 0%;
+}
+
+#chill {
+    top: 20%;
+    left: 15%;
+}
+
+#gaming {
+    top: 40%;
+    left: 0%;
+}
+
+#venting {
+    top: 60%;
+    left: 15%;
+}
+
+#advertisement {
+    top:80%;
+    left: 0%;
+}
+
+#name {
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    font-size: 8vw;
+    color: #5050ff;
+    user-select: none;
+}
+
+#notifications {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #323232;
+    border: 2.5px solid #141414;
+}
